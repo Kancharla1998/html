@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            background-color: white;
+            width: 30%;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #e5533e;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Flask Library</h1>
+    <p>Learn and explore Flask, one of the most powerful Python frameworks for web development.</p>
+</header>
+
+<div class="container">
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Flask+Logo" alt="Flask Logo">
+        <div class="card-content">
+            <h2>What is Flask?</h2>
+            <p>Flask is a lightweight Python web framework used for building powerful web applications with minimal effort.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Python+Code" alt="Python Code">
+        <div class="card-content">
+            <h2>Why Flask?</h2>
+            <p>Flask is simple to use and allows for great flexibility. It is ideal for both beginners and professionals.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Flask+Web+App" alt="Flask Web App">
+        <div class="card-content">
+            <h2>Flask Features</h2>
+            <p>Flask offers many features, including routing, templating, and support for various extensions.</p>
+            <a href="#" class="btn">Explore Features</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Flask Library. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
