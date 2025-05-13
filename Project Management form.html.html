@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Project Management</title>
+    <style type="text/css" media="all">
+     body{
+       background-color :lightgrey;
+       border-style : solid;
+       padding:20px;
+     } 
+    </style>
+  </head>
+  <body>
+   <form action="response.html" method="get" accept-charset="utf-8">
+  <h1 class="header">Project Management</h1><br />
+  
+  Project Name : <input type="text" name="project_name" maxlength = "25"          /><br /><br />
+  <label for="assignedTo">Assigned To :</label>
+  <select name="assignedTo">
+   <option>Rajesh</option>
+   <option>Arjun Pudi</option>
+   <option>Shreedhar</option>
+   <option>Revanth</option>
+   <option>Sandeep</option>
+    
+  </select> <br /> <br />
+  Start Date   :  <input type="date"  name="start_date"             /> <br /><br />
+  End Date     :  <input type="date"    name="end_date"               /> <br /><br />
+  Priority : 
+         High <input type="radio"   name="Priority"  value="High"             /> 
+         Average    <input type="radio"   name="Priority"  value="Average"           />
+         Low   <input type = "radio" name="Priority"  value="Low"           /> <br /><br />
+  Description  : <textarea name="description" id=description rows="3" cols="20"></textarea> <br /><br />
+  <input type="reset" name="Clear"     value="Clear"   style="background-color:blue "       />
+  <input style="background-color:green" type="submit" name="Submit"   value="Submit"             />
+  
+</form>
+  </body>
+</html>
